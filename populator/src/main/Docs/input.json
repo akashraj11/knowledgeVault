@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalCondition",
+  "alternateName": "hiv aids\u000Bhuman immunodeficiency virus, acquired immune deficiency syndrome\u000Bhuman immunodeficiency virus [hiv] disease",
+  "code": {
+    "@type": "MedicalCode",
+    "code": "413",
+    "codingSystem": "ICD-9"
+  },
+  "differentialDiagnosis": {
+    "distinguishingSign": [
+      {
+        "@type": "MedicalSymptom",
+        "name": "Pain areas in the abdomen"
+      },
+      {
+        "@type": "MedicalSymptom",
+        "name": "severe fatigue"
+      },
+      {
+        "@type": "MedicalSymptom",
+        "name": "pneumonia"
+      },
+      {
+        "@type": "MedicalSymptom",
+        "name": "Mouth: ulcers or white tongue"
+      },
+      {
+        "@type": "MedicalSymptom",
+        "name": "Groin: sores or swelling"
+      },
+      {
+        "@type": "MedicalSymptom",
+        "name": "genital or anal sores"
+      }
+    ]
+
+  },
+  "possibleTreatment":[
+    {"@type":"Drug",
+      "name":"Cavlam-650",
+      "DoseSchedule":[
+        {"doseUnit":"650mg"},
+        {"frequency":"thrice daily"}
+      ]
+    },
+    {"@type":"Drug",
+      "name":"Paracetamol",
+      "DoseSchedule":[
+        {"doseUnit":"500mg"},
+        {"frequency":"twice daily"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+management:
+  security:
+    enabled: false
+spring:
+  application:
+    name: paragraph-processor
+  cloud:
+    config:
+      uri: http://127.0.0.1:8092
+
+
